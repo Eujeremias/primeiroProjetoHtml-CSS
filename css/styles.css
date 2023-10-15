@@ -1,0 +1,62 @@
+html{
+    font-family: Helvetice;
+    background-color: #40434A;
+}
+.container{
+    max-width: 1100px;
+    background-color: #91A3AF;
+    /* Técnica para centralizar uma div */
+    position: relative;
+    margin: 50px auto;
+    /*==============*/
+
+    padding: 20px 50px;
+}
+.bold{
+    font-weight: bold;
+}
+.header{
+    text-align: center;
+}
+.main-title{
+    font-size: 40px
+}
+.main-paragraph{
+    font-style: italic;
+}
+.featured-image{
+    text-align: center;
+    margin-top: 20px
+}
+.aboutcar-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd
+}
+
+/* Quotes */
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+}
+.quotes-container blockquote{
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+.quotes-container p{
+    font-style: italic;
+}
+/* Curiosities */
+.curiosities-container li{
+    height  : 25px;
+}
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+
+img{
+    max-width: 810px;
+
+}
